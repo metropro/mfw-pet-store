@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/all.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
   <!-- HEADER/NAVBAR -->
@@ -55,12 +56,58 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum fugiat error voluptas voluptate, obcaecati at recusandae sint quae facere. Blanditiis perferendis distinctio, impedit cum ipsum.</p>
 				</div>
 			</div>
+			<!-- 				(.row>table.table.table-striped>(thead>tr>(th{department})*3)+(tbody>(tr>td{register}+td{834-987-0989}+td{x890})*5))  -->
+
+			<div class="row">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>Department</th>
+							<th>Phone Number</th>
+							<th>Extension</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Register</td>
+							<td>834-987-0989</td>
+							<td>x890</td>
+						</tr>
+						<tr>
+							<td>Dog Toys</td>
+							<td>834-987-0989</td>
+							<td>x890</td>
+						</tr>
+						<tr>
+							<td>Cat Stuff</td>
+							<td>834-987-0989</td>
+							<td>x890</td>
+						</tr>
+						<tr>
+							<td>Parrot Stuff</td>
+							<td>834-987-0989</td>
+							<td>x890</td>
+						</tr>
+						<tr>
+							<td>Vet</td>
+							<td>834-987-0989</td>
+							<td>x890</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!-- (.col-xs-12.col-md-5.col-md-offset-1>.row{add map IFRAME here}+(.row>img.img-responsive.pet_img.pull-left+img.img-responsive.pet_img.pull-right)) -->
+		<div class="col-xs-12 col-md-5 col-md-offset-1">
+			<div class="row"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12790.416957247213!2d-119.785777!3d36.732065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1543374493403" width="487" height="350" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+			<div class="row">
+				<img src="img/cat.jpg" alt="" class="img-responsive pet_img pull-left">
+				<img src="img/dog.jpg" alt="" class="img-responsive pet_img pull-right">
+			</div>
 		</div>
 	</div>
 </div>
 
-
- <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12790.416957247213!2d-119.785777!3d36.732065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1543367728113" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
     <!--FOOTER-->
 		<footer class="container-fluid">
 	  	<div class="row centered">
@@ -78,7 +125,7 @@
 	 			</a>
 	 			</address>
 	  		</div>
-	  		<div class="col-sm-2 social">
+	  		<div class="col-sm-1 social">
 	  			<a href="#">
 	 				<i class="fab fa-facebook">
 	 				<span class="hidden-xs">Facebook</span>
