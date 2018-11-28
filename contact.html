@@ -32,72 +32,76 @@
   		</header>
   	</div>
 <!--  -->
- <div class="container content">
-   <div class="row">
-     <div class="col-sm-12 col-md-6">
-       <div class="row">
-         <div class="col-xs-6 col-sm-4"><img src="img/doctor.jpg" alt="" class="img-responsive"></div>
-       </div>
-       <div class="col-xs-6 col-sm-4">
-         <h3>Dr. Joe Smith</h3>
-       </div>
-       <div class="col-xs-12 col-sm-4">
-         <p>lorem25</p>
-       </div>
-     </div>
-   </div>
-   <div class="row">
-     <div class="col-sm-12 col-md-6">
-       <div class="row">
-         <div class="col-xs-6 col-sm-4"><img src="img/doctor2.jpg" alt="" class="img-responsive"></div>
-       </div>
-       <div class="col-xs-6 col-sm-4">
-         <h3>Dr. Jane Smith</h3>
-       </div>
-       <div class="col-xs-12 col-sm-4">
-         <p>lorem25</p>
-       </div>
-     </div>
-   </div>
- </div>
+<!--  (.container.content>.row>(.col-sm-12.col-md-6>(.row>(.col-xs-6.col-sm-4>img.img-responsive[src=img/doctor1.jpg])+(.col-xs-6.col-sm-8>h3{Dr. Joe Smith})+(.col-xs-12.col-sm-8>p{lorem25}))*2)) -->
+
+<div class="container content">
+	<div class="row">
+		<div class="col-sm-12 col-md-6">
+			<div class="row">
+				<div class="col-xs-6 col-sm-4"><img src="img/doctor1.jpg" alt="" class="img-responsive"></div>
+				<div class="col-xs-6 col-sm-8">
+					<h3>Dr. Joe Smith</h3>
+				</div>
+				<div class="col-xs-12 col-sm-8">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident qui magni minima nobis similique tempore totam? Ratione laboriosam sunt error totam ullam aut et accusamus.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 col-sm-4"><img src="img/doctor2.jpg" alt="" class="img-responsive"></div>
+				<div class="col-xs-6 col-sm-8">
+					<h3>Dr. Jane Smith</h3>
+				</div>
+				<div class="col-xs-12 col-sm-8">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum fugiat error voluptas voluptate, obcaecati at recusandae sint quae facere. Blanditiis perferendis distinctio, impedit cum ipsum.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+ <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12790.416957247213!2d-119.785777!3d36.732065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1543367728113" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
     <!--FOOTER-->
-    <footer class="container-fluid">
-    	<div class="row centered">
-    		<div class="col-xs-6 col-sm-offset-1">
-   			<img src="img/petstore_logo.png" alt="" class="logo">
-   		</div>
-    		<div class="col-xs-6 col-sm-3 col-sm-offset-1 contact_info">
-    			<address>
-   				<a href="">
-   					Pet Store<br>
-   					Fresno, Ca<br>
-   			  </a>
-   			<a href="">
-   				info@petstore.com
-   			</a>
-   			</address>
-    		</div>
-    		<div class="col-sm-2 social">
-    			<a href="">
-   				<i class="fab fa-facebook"></i>
-   				<span class="hidden-xs">Facebook</span>
-   			</a>
-    			<a href="">
-   				<i class="fab fa-twitter"></i>
-   				<span class="hidden-xs">Twitter</span>
-   			</a>
-    			<a href="">
-   				<i class="fab fa-linkedin"></i>
-   				<span class="hidden-xs">LinkedIn</span>
-   			</a>
-    		</div>
-    	</div>
-    	<div class="row">
-    		<div class="col-sm-12 fine_print text-center">
-    			<p>&copy;Pet Store, Inc. All Rights Reserved</p>
-    		</div>
-    	</div>
-    </footer>
+		<footer class="container-fluid">
+	  	<div class="row centered">
+	  		<div class="col-xs-6 col-sm-2">
+	 			<img src="img/petstore_logo.png" alt="" class="logo">
+	 		</div>
+	  		<div class="col-xs-6 col-sm-4 contact_info">
+	  			<address>
+	 				<a href="">
+	 					Pet Store<br>
+	 					Fresno, Ca<br>
+	 			  </a>
+	 			<a href="">
+	 				info@petstore.com
+	 			</a>
+	 			</address>
+	  		</div>
+	  		<div class="col-sm-2 social">
+	  			<a href="#">
+	 				<i class="fab fa-facebook">
+	 				<span class="hidden-xs">Facebook</span>
+	 				</i>
+	 			</a>
+	  			<a href="#">
+	 				<i class="fab fa-twitter">
+	 				<span class="hidden-xs">Twitter</span>
+	 				</i>
+	 			</a>
+	  			<a href="#">
+	 				<i class="fab fa-linkedin">
+	 				<span class="hidden-xs">LinkedIn</span>
+	 				</i>
+	 			</a>
+	  		</div>
+	  	</div>
+	  	<div class="row">
+	  		<div class="col-sm-12 fine_print text-center">
+	  			<p>&copy;Pet Store, Inc. All Rights Reserved</p>
+	  		</div>
+	  	</div>
+	  </footer>
    	<!-- scripts -->
    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    	<script src="js/bootstrap.min.js"></script>
